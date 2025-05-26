@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "test-project"
+version = "0.1.0"
+description = ""
+package-mode = false
+authors = ["blank"]
+
+[tool.poetry.dependencies]
+python = "3.11.*"
+pyspark = "^3.5.4"
+fastdup = "2.23"
+Pillow = "^10.3.0"
+matplotlib = "^3.10.3"
+loguru = "^0.7.3"
+
+
+[tool.poetry.dev-dependencies]
+black = "^24.3.0"
+flake8 = "^7.0.0"
+isort = "^5.10.1"
+mypy = "^1.10"
+pre-commit = "^4.2.0"
+pytest = "^8.2.1"
+pytest-cov = "^5.0.0"
+databricks-rocket = "^3.1.0"
+types-requests = "^2.27.16"
+fire = "^0.4.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
